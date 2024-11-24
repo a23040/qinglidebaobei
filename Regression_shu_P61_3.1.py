@@ -22,7 +22,7 @@ Y = np.array([160, 260, 210, 265, 240, 220, 275, 160, 275, 250])
 
 X = sm.add_constant(X)   # 添加截距系数列
 model = sm.OLS(Y,X).fit()
-
+print("hhhhh")
 
 # （1）（3）（4） 回归系数，建立模型，检验
 print("（1）模型参数:\n",model.summary())
